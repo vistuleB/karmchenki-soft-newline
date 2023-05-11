@@ -4,15 +4,16 @@
 	"description": "shift + enter for end-of-line newline",
 	"version": "0.0.1",
 	"publisher": "Karmchenki",
+	"repository": "https://github.com/vistuleB/karmchenki-soft-newline.git",
 	"license": "MIT",
 	"engines": {
-		"vscode": "^1.46.0"
+		"vscode": "^1.78.0"
 	},
 	"categories": [
 		"Other"
 	],
 	"activationEvents": [
-		"*"
+		"onStartupFinished"
 	],
 	"main": "./out/extension.js",
 	"contributes": {
